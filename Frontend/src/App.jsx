@@ -23,6 +23,8 @@ function App() {
     fetchData();
   }, []);
 
+  // handleAddTodo
+
   const handleAddTodo = async () => {
     try {
       const response = await fetch("http://localhost:5000/api", {
@@ -41,6 +43,7 @@ function App() {
     }
   };
 
+  // handleDeleteTodo
   const handleDeleteTodo = async (id) => {
     try {
       await fetch(`http://localhost:5000/api/${id}`, {
