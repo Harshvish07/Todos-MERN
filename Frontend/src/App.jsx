@@ -42,6 +42,7 @@ function App() {
       console.error(error);
     }
   };
+  // new update
 
   // handleDeleteTodo
   const handleDeleteTodo = async (id) => {
