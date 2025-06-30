@@ -43,6 +43,8 @@ function App() {
     }
   };
 
+  // removeTodo
+
   // handleDeleteTodo
   const handleDeleteTodo = async (id) => {
     try {
